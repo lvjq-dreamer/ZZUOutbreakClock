@@ -1,0 +1,48 @@
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+META-INF/
+
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package
+out/
+*.MF
+
+# import file
+druid.properties
+mail.properties
+
+# test File
+test/

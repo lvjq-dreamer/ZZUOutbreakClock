@@ -1,0 +1,14 @@
+# SMTP服务器(这里用的163 SMTP服务器) -- 如果使用别的需要修改
+mail.smtp.host=smtp.163.com
+# 端口号,这个是163使用到的; QQ的应该是465或者875(未测试) -- 如果使用别的需要修改
+mail.smtp.port=465
+mail.smtp.socketFactory.port=465
+mail.smtp.auth=true
+mail.smtp.ssl.enable=true
+mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
+
+# 配置邮箱账户和授权码
+# account 建议为网易163邮箱，这个是我一直使用的
+my.email.account=
+# 配置邮箱的授权码，这个自行搜索，配置。
+my.email.password=

@@ -1,0 +1,11 @@
+driverClassName=com.mysql.cj.jdbc.Driver
+# 需要改成自己的IP和端口号
+url=jdbc:mysql://IP:端口号/clock
+username=root
+password=123456
+# 初始化连接数量
+initialSize=5
+# 最大连接数
+maxActive=10
+# 最大等待时间
+maxWait=3000
